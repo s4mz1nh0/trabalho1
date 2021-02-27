@@ -1,0 +1,29 @@
+#fFuncionarios {
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+#tbFuncionarios {
+    font: 14px Verdana;
+}
+
+#dGridFuncionarios {
+    width: 960px;
+    margin-left: 5%;
+}
+
+select {
+    width: 280px;
+    height: 38px;
+}
+
+input[type=button] {
+    width: 180px;
+    height: 48px;
+}
+
+tr:hover {
+    cursor: pointer;
+    background-color: rgb(78, 165, 236);
+    color:antiquewhite;
+}
