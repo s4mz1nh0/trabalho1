@@ -1,6 +1,7 @@
 #fFuncionarios {
     margin-left: 30%;
     margin-top: 20px;
+    margin-right: 30%;
 }
 
 #tbFuncionarios {
@@ -8,14 +9,19 @@
 }
 
 #dGridFuncionarios {
-    width: 960px;
-    margin-left: 5%;
+    width: 1239px;
+    
 }
 
 select {
     width: 280px;
     height: 38px;
 }
+.lh-100 {
+    margin-left: 30%;
+    text-align: center;
+
+  }
 
 input[type=button] {
     width: 180px;

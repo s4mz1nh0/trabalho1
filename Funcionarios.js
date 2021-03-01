@@ -8,14 +8,14 @@ function cadFuncionario(nome, sobrenome, email, sexo, funcao) {
     let linhaParam;
     
 
-    let cellCodigo = linha.insertCell(0);
+    let cellMatricula = linha.insertCell(0);
     let cellNome = linha.insertCell(1);
     let cellSobrenome = linha.insertCell(2);
     let cellEmail = linha.insertCell(3);
     let cellSexo = linha.insertCell(4);
     let cellFuncao = linha.insertCell(5);
 
-    cellCodigo.innerHTML = qtdlLinhas;
+    cellMatricula.innerHTML = qtdlLinhas;
     cellNome.innerHTML = nome;
     cellSobrenome.innerHTML = sobrenome;
     cellEmail.innerHTML = email;
@@ -43,7 +43,7 @@ function preencheCamposForm() {
         Funcionarios.rows[i].onclick = function() 
         {
             index = this.rowIndex;
-            document.getElementById("txtCodigo").value = Funcionarios.rows[index].cells[0].innerText;
+            document.getElementById("txtMatricula").value = Funcionarios.rows[index].cells[0].innerText;
             document.getElementById("txtNome").value = Funcionarios.rows[index].cells[1].innerText;
             document.getElementById("txtSobrenome").value = Funcionarios.rows[index].cells[2].innerText;
             document.getElementById("txtEmail").value = Funcionarios.rows[index].cells[3].innerText;
@@ -57,7 +57,7 @@ function preencheCamposForm() {
 
 function delRegistro() {
 
-    for(let i = 0; i < Funcionarios.rows.length; i++) 
+    for(let i = 1; i < Funcionarios.rows.length; i++) 
     {
         if (index == i) {
             Funcionarios.deleteRow(index);

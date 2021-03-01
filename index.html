@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Cadastro de Funcionarios</title>
+    <title>Pagina para cadastro de funcionarios</title>
     <link rel="stylesheet" href="Funcionarios.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -23,8 +23,8 @@
     <div id="fFuncionarios">
         <form>
             <div class="form-group">
-                <label for="txtCodigo">Código</label>
-                <input type="text" class="form-control" id="txtCodigo" aria-describedby="emailHelp" placeholder="Código" readonly>
+                <label for="txtMatricula">N° Matricula</label>
+                <input type="text" class="form-control" id="txtMatricula" aria-describedby="emailHelp" placeholder="Matricula" readonly>
             </div>
             <div class="form-group">
                 <label for="txtNome">Nome</label>
@@ -42,11 +42,7 @@
                 </div>
                 <input type="text" class="form-control" id="txtEmail" placeholder="E-mail"
                        aria-describedby="inputGroupPrepend" required>
-                       <div class="invalid-feedback">
-                        Por favor, informe um e-mail válido.
-                    </div>
-    
-              
+                      
             </div>
             <div class="form-group">
                 <label for="slSexo">Sexo</label>
@@ -82,7 +78,7 @@
         <table border="1" id="tbFuncionarios" class="table table-striped">
             <thead class="thead-dark">
                 <tr>
-                    <th scope="col">Código</th>
+                    <th scope="col">Matricula</th>
                     <th scope="col">Nome</th>
                     <th scope="col">Sobrenome</th>
                     <th scope="col">E-mail</th>
